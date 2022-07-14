@@ -10,6 +10,6 @@
 		echo("addition of $a and $b is : $c<hr/>");	
 		echo("addition of ".$a." and ".$b." is : ".$c."<hr/>");	
 
-                ?>
+    ?>
     </body>
 </html>
