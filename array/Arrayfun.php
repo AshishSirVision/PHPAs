@@ -11,4 +11,4 @@ echo $friends["Ajit"];
 $friends=array_change_key_case($friends,CASE_LOWER);
 echo "<hr style='color:blue;border:1px solid tomato'/>";
 echo $friends["ajit"];
-?>
+?> 
