@@ -1,0 +1,4 @@
+PHP File System allows
+ us to create file, read file line by line, 
+ read file character by character, write file, 
+ append file, delete file and close file.
