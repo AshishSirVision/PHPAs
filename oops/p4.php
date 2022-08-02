@@ -6,6 +6,8 @@ class Student
     private $name;
     private $age;
     private $address;  
+
+    //special type of method/functions -->constructor
    function __construct($id,$b,$c,$d)
     {
         $this->id=$id;

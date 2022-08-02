@@ -25,6 +25,7 @@ $obj2->age=22;
 $obj2->address="malad";
 //using object access the class data
 
+$obj3=$obj1;
 echo "<hr/>";
 echo $obj1->id."<br/>";
 echo $obj1->name."<br/>";
@@ -35,7 +36,7 @@ echo $obj2->id."<br/>";
 echo $obj2->name."<br/>";
 echo $obj2->age."<br/>";
 echo $obj2->address."<br/>";
-
+echo "<hr/>";
 echo $obj3->id."<br/>";
 echo $obj3->name."<br/>";
 echo $obj3->address."<br/>";
