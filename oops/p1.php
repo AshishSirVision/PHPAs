@@ -18,5 +18,4 @@ echo $obj1->name."<br/>";
 echo "<hr/>";
 echo $obj1->id."<br/>";
 echo $obj1->name."<br/>";
-
 ?>

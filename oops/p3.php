@@ -2,12 +2,14 @@
 //class definition
 class Student
 {
+    //instance variable
     private  $id;
     private $name;
     private $age;
     private $address;  
    function set($id,$b,$c,$d)
     {
+        //this keyword refer instance variable,method,constructor
         $this->id=$id;
         $this->name=$b;
         $this->age=$c;
