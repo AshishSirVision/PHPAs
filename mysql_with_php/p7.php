@@ -18,11 +18,11 @@ if($result->num_rows>0)
 {
     echo "<table border=1 cellspacing='0'>";
     echo "<tr>";
-    echo "<th>Field</th>";
-    echo "<th>Type</th>";
-    echo "<th>Null</th>";
-    echo "<th>Key</th>";
-    echo "<th>Default</th>";
+    echo "<th>firstname</th>";
+    echo "<th>lastname</th>";
+    echo "<th>phonenumber</th>";
+    echo "<th>email</th>";
+    echo "<th>address</th>";
     
     echo "</tr>";
     while($row=$result->fetch_assoc())
@@ -33,7 +33,6 @@ if($result->num_rows>0)
          echo "<td>".$row["phonenumber"]."</td>";
          echo "<td>".$row["email"]."</td>";
          echo "<td>".$row["address"]."</td>";
-        
          echo "</tr>";
     }
   
