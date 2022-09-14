@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <?php
 try {
   try {
